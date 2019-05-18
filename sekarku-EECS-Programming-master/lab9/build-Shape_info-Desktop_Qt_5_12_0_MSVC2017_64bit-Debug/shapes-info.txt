@@ -1,0 +1,54 @@
+0 0 1 0 0 1
+Sufficient coordinate input
+This is a Triangle
+Point 1: x: 0 y: 0
+Point 2: x: 1 y: 0
+Point 3: x: 0 y: 1
+Triangle? (0 = false; 1 = true) 1
+Area: 6.30864
+Perimeter: 3.41421
+Is it equilateral? (0 = false; 1 = true) 0
+
+0 0 1 0 1 1 0 1
+Sufficient coordinate input
+This is a Quadrilateral
+Point 1: x: 0 y: 0
+Point 2: x: 1 y: 0
+Point 3: x: 1 y: 1
+Point 4: x: 0 y: 1
+Is it a Quadrilateral? (0 = false; 1 = true) 1
+Area: 1
+
+0 0 1 1
+Sufficient coordinate input
+This is a Circle
+Point 1: x: 0 y: 0
+Point 2: x: 1 y: 1
+Radius: 1.41421
+Diameter: 2.82843
+Area: 6.28319
+Circumference: 8.88577
+
+1 1 2 2 3
+Insufficient coordinate input
+-----------------------------
+0 0 2.5 0 2.5 2.5 0 2.5
+Sufficient coordinate input
+This is a Quadrilateral
+Point 1: x: 0 y: 0
+Point 2: x: 2 y: 0
+Point 3: x: 2 y: 2
+Point 4: x: 0 y: 2
+Is it a Quadrilateral? (0 = false; 1 = true) 1
+Area: 4
+
+1 1 1 1
+Sufficient coordinate input
+You can't make a circle with these points.
+Point 1: x: 1 y: 1
+Point 2: x: 1 y: 1
+Radius: 0
+Diameter: 0
+Area: 0
+Circumference: 0
+
